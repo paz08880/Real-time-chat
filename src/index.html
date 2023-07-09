@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Real Time Chat</title>
+</head>
+<body>
+    <div class="app-container" id= "app-container">
+        <form action="" id = "form-message">
+            <span class="is-typing" id = "isTyping"></span>
+            <input type="text" id="message" placeholder="Enter a Message">
+            <input type="submit" value="Send">
+        </form>
+    </div>
+
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
