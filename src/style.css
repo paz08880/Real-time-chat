@@ -12,6 +12,7 @@ body{
     justify-content: center;
     height:100vh;
     padding-top: 20px;
+
 }
 
 .app-container{
@@ -84,4 +85,12 @@ input[type=submit]{
     width: 200px;
     height: 200px;
     border:1px solid black;
+}
+
+#onlineUsers{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    text-transform: capitalize;
 }
