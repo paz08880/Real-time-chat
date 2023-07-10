@@ -1,4 +1,4 @@
-const io = require('socket.io')(3000);
+const io = require('socket.io')(3000)
 const users = {};
 
 io.on("connection", (socket) => {
@@ -28,3 +28,4 @@ io.on("connection", (socket) => {
         delete users[socket.id];
     });
 });
+
