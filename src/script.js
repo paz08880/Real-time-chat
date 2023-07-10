@@ -67,3 +67,12 @@ function AddMessage(message) {
 function checkUsers() {
     socket.emit("send-online-users");
 }
+
+
+function clearAllChat() {
+    let allMessages = document.querySelectorAll("#gotMessage");
+    allMessages.forEach(message => {
+      message.remove();
+    });
+  }
+  
